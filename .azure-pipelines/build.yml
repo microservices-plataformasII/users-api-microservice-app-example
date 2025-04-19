@@ -7,7 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  imageName: 'microservice-app'
+  imageName: 'users-api-microservice'
 
 steps:
 - task: DockerInstaller@0
